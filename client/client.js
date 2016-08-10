@@ -19,6 +19,8 @@ var frontpage = [
 	"",
 	"Formatting:",
 	"Whitespace is preserved, so source code can be pasted verbatim.",
+	"There's some LaTeX stuff too. All you gotta do is enclose the LaTeX in dollar signs",
+	"You gotta learn LaTeX by yourself and if you can't you are a faggot",
  	"",
 	"	                  _        _",
 	"	  /\\/\\   __ _  __| | ___  | |__  _   _",
