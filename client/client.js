@@ -1,30 +1,36 @@
 var frontpage = [
-	"                            _           _         _       _   ",
-	"                           | |_ ___ ___| |_   ___| |_ ___| |_ ",
-	"                           |   |_ ||  _| '_| |  _|   |_ ||  _|",
-	"                           |_|_|__/|___|_,_|.|___|_|_|__/|_|  ",
+    	"                       __  __       ___ _           _",       					
+	"                       \\ \\/ /      / __\\ |__   __ _| |_",
+        "                        \\  /      / /  | '_ \\ / _` | __|",
+        "                        /  \\     / /___| | | | (_| | |_",
+        "                       /_/\\_\\  . \\____/|_| |_|\\__,_|\\__|",
+	"",	
+	"",
+	"Welcome to X.chat a private chat network hosted by ElixirX",
 	"",
 	"",
-	"Welcome to hack.chat, a minimal, distraction-free chat application.",
-	"Channels are created and joined by going to https://hack.chat/?your-channel. There are no channel lists, so a secret channel name can be used for private discussions.",
+	"Channels:",
+	"?X",
 	"",
-	"Here are some pre-made channels you can join:",
-	"?lounge ?meta",
-	"?math ?physics ?chemistry",
-	"?technology ?programming",
-	"?games ?banana",
-	"And here's a random one generated just for you: ?" + Math.random().toString(36).substr(2, 8),
+	"",
+	"To prevent you from being impersonated we use trips. Type #whatever after your username to get your personal trip.",
+	"A trip is made from the salt string and is a 6 character long code to identify you",
 	"",
 	"",
 	"Formatting:",
 	"Whitespace is preserved, so source code can be pasted verbatim.",
-	"Surround LaTeX with a dollar sign for inline style $\\zeta(2) = \\pi^2/6$, and two dollars for display. $$\\int_0^1 \\int_0^1 \\frac{1}{1-xy} dx dy = \\frac{\\pi^2}{6}$$",
-	"",
-	"GitHub: https://github.com/AndrewBelt/hack.chat",
-	"Android apps: https://goo.gl/UkbKYy https://goo.gl/qasdSu",
-	"",
-	"Server and web client released under the GNU General Public License.",
-	"No message history is retained on the hack.chat server.",
+ 	"",
+	"	                  _        _",
+	"	  /\\/\\   __ _  __| | ___  | |__  _   _",
+	"	 /    \\ / _` |/ _` |/ _ \\ | '_ \\| | | |",
+	"	/ /\\/\\ \\ (_| | (_| |  __/ | |_) | |_| |",
+	"	\\/    \\/\\__,_|\\__,_|\\___| |_.__/ \\__, |",
+	"	                                 |___/",
+	"	   __ _ _      _       __  __",
+	"	  /__\\ (_)_  _(_)_ __  \\ \\/ /",
+	"	 /_\\ | | \\ \\/ / | '__|  \\  /",
+	"	//__ | | |>  <| | |     /  \\",
+"	\\__/ |_|_/_/\\_\\_|_|    /_/\\_\\"
 ].join("\n")
 
 function $(query) {return document.querySelector(query)}
@@ -278,7 +284,7 @@ function updateTitle() {
 		title = "?" + myChannel
 	}
 	else {
-		title = "hack.chat"
+		title = "X.Chat"
 	}
 	if (unread > 0) {
 		title = '(' + unread + ') ' + title
