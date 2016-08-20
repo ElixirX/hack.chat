@@ -153,10 +153,8 @@ function pushMessage(args) {
 	// Message container
 	var messageEl = document.createElement('div')
 	messageEl.classList.add('message')
-	if (args.admin) {
-		messageEl.classList.add('admin')
-	}
-	else if (args.nick == myNick) {
+	
+	if (args.nick == myNick) {
 		messageEl.classList.add('me')
 	}
 	else if (args.nick == '!') {
@@ -164,6 +162,12 @@ function pushMessage(args) {
 	}
 	else if (args.nick == '*') {
 		messageEl.classList.add('info')
+	}
+	else if (args.admin) {
+		messageEl.classList.add('admin')
+	}
+	else if (args.mod) {
+		messageEl.classList.add('mod')
 	}
 
 	// Nickname
