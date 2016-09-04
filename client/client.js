@@ -23,7 +23,7 @@ var frontpage = [
 	"There's some LaTeX stuff too, just enclose it in dollar signs.",
 	"Here's an example of LaTeX for you",
 	"",
-	"$\\color{cyan}{\\mathfrak{\\Huge{X.Chat \\ is \\ completly \\ anonymous}}}$",
+	"$\\color{cyan}{\\mathfrak{\\Huge{\\color{red}X \\color{orange}. \\color{yellow}C \\color{green}h \\color{blue}a \\color{violet}t \\ \\color{red}i \\color{orange}s \\ \\color{yellow}c \\color{green}o \\color{blue}m \\color{violet}p \\color{red}l \\color{orange}e \\color{yellow}t \\color{green}e \\color{blue}l \\color{violet}y \\ \\color{red}a \\color{orange}n \\color{yellow}o \\color{green}n \\color{blue}y \\color{violet}m \\color{red}o \\color{orange}u \\color{yellow}s}}}$",
  	"",
 	"		                   _        _",
 	"		   /\\/\\   __ _  __| | ___  | |__  _   _",
