@@ -507,7 +507,7 @@ var schemes = [
 	'tomorrow',
 ]
 
-var currentScheme = 'atelier-dune'
+var currentScheme = 'solarized'
 
 function setScheme(scheme) {
 	currentScheme = scheme
