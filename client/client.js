@@ -82,12 +82,7 @@ function join(channel) {
 
 	ws.onopen = function() {
 		if (!wasConnected) {
-			if (location.hash) {
-+				myNick = location.hash.substr(1)
-+			}
-+			else {
-+				myNick = prompt('Nickname:', myNick)
-+			}
+			myNick = prompt('Nickname:', myNick)
 		}
 		if (myNick) {
 			localStorageSet('my-nick', myNick)
